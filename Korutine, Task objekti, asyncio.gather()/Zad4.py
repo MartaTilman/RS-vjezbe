@@ -10,7 +10,6 @@ async def provjeri_parnost(broj):
     else:
         return f"Broj {broj} je neparan."
 
-# Glavna funkcija
 async def main():
     brojevi = [random.randint(1, 100) for _ in range(10)]
     print(f"Generirani brojevi: {brojevi}")
